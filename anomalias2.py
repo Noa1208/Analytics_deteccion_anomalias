@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Cargar los datos
-ruta_archivo = "Filtered_Wireshark_Traffic.csv"  # Cambia esto por la ruta de tu archivo
+ruta_archivo = "Filtered_Wireshark_Traffic.csv"  # Archivo CSV con datos de tráfico de red
 datos = pd.read_csv(ruta_archivo)
 
 # Preprocesar los datos
